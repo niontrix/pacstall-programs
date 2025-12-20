@@ -1,0 +1,22 @@
+pkgbase = qpwgraph
+	gives = qpwgraph
+	pkgver = 0.9.7
+	pkgdesc = qpwgraph is a graph manager dedicated to PipeWire, using the Qt C++ framework, based and pretty much like the same of QjackCtl.
+	url = https://gitlab.freedesktop.org/rncbc/qpwgraph
+	arch = amd64
+	makedepends = cmake
+	makedepends = qt6-base-dev>=6.1 | qtbase5-dev>=5.1
+	makedepends = qt6-base-dev-tools>=6.1 | qtbase5-dev-tools>=5.1
+	makedepends = qt6-tools-dev>=6.1 | qttools5-dev>=5.1
+	makedepends = qt6-tools-dev-tools>=6.1 | qttools5-dev-tools>=5.1
+	makedepends = qt6-l10n-tools>=6.1 | base-files<<12
+	makedepends = qt6-svg-dev | libqt6svg6-dev | libqt5svg5-dev
+	makedepends = libxkbcommon-dev
+	makedepends = libgl-dev
+	makedepends = libasound2-dev
+	makedepends = libpipewire-0.3-dev
+	breaks = qpwgraph
+	maintainer = Rui Nuno Capela <rbnc.org>
+	source = https://gitlab.freedesktop.org/rncbc/qpwgraph.git#tag=
+
+pkgname = qpwgraph
